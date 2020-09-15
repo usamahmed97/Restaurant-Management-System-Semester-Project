@@ -1,0 +1,298 @@
+/*=================== Main ==========*/
+
+.body-main {
+    background-image:url("../img/5.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+	background-color: #696969;
+  background-blend-mode: screen;
+}
+
+.btn-main {
+    background-color: #CD853F;
+    border: none ;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+  
+    display: inline-block;
+    font-size: 22px;
+    margin-top:22%;
+	margin-right:5%;
+	margin-left:5%;
+    cursor: pointer;
+		
+}
+.btn-main:hover {background-color: #D2691E}
+
+.btn-main:active {
+  background-color: #D2691E;
+  transform: translateY(4px);
+}
+
+
+/*=================== Cashier ==========*/
+.body-cashier {
+    
+    background-position: center;
+	background-color: 	#EEE4B9;
+}
+.menu-table{
+	width:140%;
+	margin-top:2%;
+}
+.cashier-btn{
+	
+	margin-left:55%;
+	margin-top:40%;
+	
+}
+.table-box{
+	padding-bottom:0.5%;
+}
+.form-gst{
+	margin-left:70%;
+	
+}
+
+.gst-box{
+	width:15%;
+	padding-bottom:1%
+}
+/*======= Update Item========*/
+.body-update-item{
+background-position: center;
+	background-color:#EEE4B9;
+}
+
+.search{
+	margin-left:30%;
+}
+.update-btn{
+	margin-left:85%;
+}
+
+		
+
+/*========== Revenue========*/
+
+.revenue{
+background-position: center;
+	background-color:#EEE4B9;
+	}
+.form-date1{
+	padding-top:3%;
+}
+.date1-box{
+	padding-bottom:0.5%;
+	margin-right:2%;
+}
+.date2-box{
+	padding-bottom:0.5%;
+	margin-right:0.7%;
+}
+
+	/*======= Add Cashier====*/
+	
+.add-cashier{
+		background-position: center;
+	background-color:#EEE4B9;
+	}
+	
+		/*======= Add Item====*/
+		
+.body-add-item{
+		background-position: center;
+	background-color:#EEE4B9;
+	}
+	/*=======Remove Item====*/
+.body-remove-item{
+		background-position: center;
+	background-color:#EEE4B9;
+	}
+	/*=======Remove Cashier====*/
+.body-remove-cashier{
+		background-position: center;
+	background-color:#EEE4B9;
+	}
+.remove-cashier-btn{
+	
+	margin-left:140%;
+	margin-top:150%;
+}
+.cashier-table{
+	width:140%;
+	margin-top:10%;
+}
+
+	/*========Shortage Items======*/
+.body-shortage-items{
+	background-position: center;
+	background-color:#EEE4B9;
+	}
+.shortage-table{
+	width:140%;
+	margin-top:10%;
+}
+	/*=======Manager=======*/
+.body-manager{
+	background-position: center;
+	background-color:#EEE4B9;
+}
+
+			/* ------------ Customer -----------*/
+
+
+.body_cust{
+
+	background-repeat:no repeat;
+	background-position:center;
+	background-attachment:fixed;
+	background-blend-mode:screen;
+	background-color:#EEE4B9;
+	
+}
+
+#customer_dropdown{
+	padding:10px;
+	margin-right:40px;
+	margin-top:5px;
+		margin-left:90px;
+		margin-bottom:1px;
+}
+
+.menu_btn{
+	padding:10px;
+	margin-right:120px;
+	margin-top:5px;
+	margin-left:150px;
+	margin-bottom:1px;
+}
+
+.customer_form{
+
+	margin-right:50px;
+	margin-top:14px;
+	margin-left:70px;
+	margin-bottom:1px;
+}
+
+.Quantity{
+	border-radius: 10px;
+	border: 1px solid #2c3e50;
+	width:40%;
+	text-align:left;
+	margin-bottom:1px;
+	
+}
+
+.menu_table{
+	width:140%;
+}
+
+.order_table{
+	width:70%;
+	margin-left:310px;
+}
+
+.cust_footer_btn{
+	margin-left:800px;
+	padding-top:250px;
+
+}
+
+.Amount{
+	padding:20px;
+	text-align:left;
+	width:40%;
+	height:20%;
+	border-radius: 8px;
+	border: 1px solid #2c3e50;
+}
+
+								/* ------------ Login -----------*/
+
+
+.body_login{
+
+	background-repeat:no repeat;
+	background-position:center;
+	background-attachment:fixed;
+	background-blend-mode:screen;
+	background-color:#EEE4B9;
+	
+}
+
+#main-wrapper{
+	width: 500px;
+	margin-top: 80px;
+	margin-left: 30%;
+	background: white;
+	padding: 5px;
+	border-radius: 10px;
+	border: 2px solid #2c3e50;
+	
+}
+
+.login_images{
+	margin-top:5px;
+	width: 150px;
+	text-align: center;
+	margin-bottom:10px;
+}
+
+.login_form{
+
+	margin-right:50px;
+	margin-top:14px;
+	margin-left:70px;
+	margin-bottom:1px;
+}
+		
+									/* ------------ Review -----------*/
+
+
+.body_review{
+
+	background-repeat:no repeat;
+	background-position:center;
+	background-attachment:fixed;
+	background-blend-mode:screen;
+	background-color:#EEE4B9;
+	
+}
+
+.order{
+	margin-left:1%;
+	margin-top:120px;
+	margin-bottom:10px;
+	border-radius: 2px;
+	border: 1px solid #2c3e50;
+	width:15%;
+}
+
+.phone{
+	margin-top:10px;
+	margin-bottom:10px;
+	border-radius: 2px;
+	border: 1px solid #2c3e50;
+	width:15%;
+}
+
+#review_dropdown{
+	padding:10px;
+	margin-right:40px;
+	margin-top:5px;
+		margin-left:90px;
+		margin-bottom:1px;
+}
+
+#review_btn{
+	
+	margin-left:300px;
+
+}
+
+
+/*--------------------------------------------------*/
